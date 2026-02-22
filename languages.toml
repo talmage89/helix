@@ -1,0 +1,10 @@
+[[language]]
+name = "json"
+language-servers = ["vscode-json-language-server"]
+
+[language-server.vscode-json-language-server]
+command = "vscode-json-language-server"
+args = ["--stdio"]
+
+[language-server.vscode-json-language-server.config]
+provideFormatter = true
